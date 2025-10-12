@@ -3,6 +3,7 @@
 Este reto simula un flujo de trabajo real con Git y GitHub: desde la creación del repositorio remoto hasta la sincronización de cambios entre local y remoto.
 
 ---
+
 ## Objetivos
 
 - Enlazar un repositorio local con GitHub.
