@@ -1,0 +1,18 @@
+# Ignorar carpetas de configuración de editores
+.vscode/
+.idea/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales de VS Code
+*.code-workspace
+
+# Ignorar archivos personales o locales
+*.log
+*.env
+
+# Ignorar archivos temporales de Windows
+ehthumbs.db
+Desktop.ini
