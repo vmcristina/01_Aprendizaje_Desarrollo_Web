@@ -12,7 +12,7 @@ En esta sección de mi ruta de aprendizaje personal, exploro los fundamentos del
 - Usar archivos `.gitignore` para mantener un historial limpio.
 - Simular flujos de trabajo profesional con `pull` y `push`.
 
-## Retos Realizados
+## Retos realizados
 
 ### [Reto 01: Configuración e Historial Local](reto-01-configuracion-historial-local/README.md)
 
