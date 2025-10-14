@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta name="description" content="Formulario accesible con HTML y atributos ARIA." />
+    <meta name="author" content="Cristina VM" />
+    <title>Formulario accesible</title>
+</head>
+
+<body>
+    <header>
+        <!-- Encabezado principal de la página -->
+        <h1>Formulario de contacto</h1> 
+        <!-- Descripción breve del propósito del formulario -->
+        <p>Por favor, rellena la siguiente información.</p> 
+    </header>
+
+    <main>
+        <!-- Formulario principal, aislado y con método POST (simulado con action="#" para este reto) -->
+        <form action="#" method="post">
+
+            <!-- Agrupación 1: Datos personales del usuario -->
+            <fieldset>
+                <!-- Título accesible para el grupo de campos -->
+                <legend>Información de contacto</legend> 
+
+                <!-- Campo de nombre completo con label asociado y atributo ARIA para marcarlo como obligatorio -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" aria-required="true" tabindex="1" />
+
+                <!-- Campo de email con validación de tipo, también obligatorio y navegable con teclado -->
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" aria-required="true" tabindex="2" />
+
+                <!-- Campo opcional de teléfono -->
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" tabindex="3" />
+            </fieldset>
+
+            <!-- Agrupación 2: Sección para escribir el mensaje -->
+            <fieldset>
+                <!-- Describe el propósito del grupo -->
+                <legend>Tu mensaje</legend> 
+
+                <!-- Campo de asunto del mensaje -->
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" tabindex="4" />
+
+                <!-- Área de texto para el cuerpo del mensaje con ARIA y tabindex -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="60" aria-required="true" tabindex="5"></textarea>
+            </fieldset>
+
+            <!-- Agrupación 3: Opciones de contacto y suscripción -->
+            <fieldset>
+                <legend>Preferencias</legend>
+
+                <!-- Lista desplegable para seleccionar el medio de contacto preferido -->
+                <label for="contacto">Método de contacto preferido:</label>
+                <select id="contacto" name="contacto" tabindex="6">
+                    <option value="email">Correo electrónico</option>
+                    <option value="telefono">Teléfono</option>
+                </select>
+
+                <!-- Casilla de verificación para suscripción, con etiqueta asociada -->
+                <label for="suscripcion">
+                    <input type="checkbox" id="suscripcion" name="suscripcion" tabindex="7" />
+                    Deseo recibir novedades por email
+                </label>
+            </fieldset>
+
+            <!-- Botón de envío del formulario con un icono decorativo (emoji) y aria-label para accesibilidad -->
+            <button type="submit" aria-label="Enviar formulario" tabindex="8">
+                📤 Enviar
+            </button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Formulario creado por Cristina VM</p>
+    </footer>
+</body>
+
+</html>

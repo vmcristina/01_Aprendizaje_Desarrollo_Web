@@ -1,0 +1,97 @@
+<!-- Define el tipo de documento como HTML5. Es obligatorio al inicio de todo documento HTML para asegurar el modo estándar en los navegadores.-->
+<!DOCTYPE html>
+<!-- Elemento raíz del documento. El atributo lang="es" indica que el contenido está en español, lo cual mejora la accesibilidad y el SEO.-->
+<html lang="es">
+
+<!-- Contiene metadatos e información que no se muestra directamente en la página.-->
+<head>
+    <!-- Codificación de caracteres para soporte de acentos y símbolos -->
+    <meta charset="UTF-8" />
+    <!-- Configuración del viewport para diseño responsive en móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Indica el autor del documento. Es buena práctica, especialmente para proyectos personales. -->
+    <meta name="author" content="Cristina VM">
+    <!-- Meta descripción para SEO -->
+    <meta name="description"
+        content="Documento HTML que demuestra el uso correcto de la estructura semántica, jerarquía de encabezados y carga optimizada de scripts.">
+    <!-- Título de la página que aparece en la pestaña del navegador -->
+    <title>Documento jerárquico - HTML semántico</title>
+    <!-- Define el icono que se muestra en la pestaña del navegador o en los marcadores (favicon). No es un metadato. -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<!-- Contiene todo el contenido visible de la página. Es la parte que el navegador muestra al usuario.-->
+
+<body>
+    <!-- Encabezado principal del sitio -->
+    <header>
+        <!-- Barra de navegación ubicada dentro del header -->
+        <nav>
+            <ul>
+                <!-- Enlaces de ejemplo, normalmente llevarían a distintas secciones o páginas -->
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal del sitio -->
+    <main>
+        <!-- Solo debe haber un h1 por documento para mantener la jerarquía semántica -->
+        <h1>Mi portfolio profesional - Cristina</h1>
+
+        <!-- Primera sección de contenido -->
+        <section>
+            <h2>Presentación</h2>
+            <p>Hola, soy desarrolladora web en formación. Este documento demuestra el uso correcto de la estructura
+                semántica en HTML.</p>
+        </section>
+
+        <!-- Segunda sección con artículos de experiencia académica -->
+        <section>
+            <h2>Experiencia académica</h2>
+
+            <!-- Cada entrada relevante se encapsula en un <article> -->
+            <article>
+                <h3>Curso de HTML</h3>
+                <p>Aprendizaje de fundamentos de la web: estructura y etiquetas semánticas.</p>
+            </article>
+
+            <article>
+                <h3>Curso de Git & GitHub</h3>
+                <p>Gestión de versiones, trabajo en equipo y flujo profesional con repositorios.</p>
+            </article>
+        </section>
+
+        <!-- Tercera sección con otro ejemplo de jerarquía semántica -->
+        <section>
+            <h2>Proyectos destacados</h2>
+
+            <article>
+                <h3>Reto: Documento jerárquico</h3>
+                <p>Ejercicio práctico enfocado en el uso semántico de HTML y la jerarquía correcta de encabezados.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Contenido secundario o complementario fuera del flujo principal -->
+    <aside>
+        <h2>Contenido adicional</h2>
+        <p>Enlaces a recursos, recomendaciones de lectura y apuntes personales.</p>
+    </aside>
+
+    <!-- Pie de página del documento -->
+    <footer>
+        <p>&copy; 2025 - Portfolio de Desarrollo Web - Cristina VM</p>
+    </footer>
+
+    <!-- Scripts simulados para cumplir con el objetivo del reto: mostrar el uso de los atributos 'defer' y 'async'. No existen físicamente y no contienen lógica funcional.-->
+    <script src="script-defer.js" defer></script>
+    <script src="script-async.js" async></script>
+</body>
+
+<!-- Fin del documento -->
+
+</html>
