@@ -4,7 +4,12 @@
 
 ## Mi ruta de aprendizaje en Desarrollo Web
 
-Este repositorio forma parte de mi proceso personal de aprendizaje en desarrollo web. En esta sección me enfoco inicialmente en dominar los fundamentos esenciales de **Git** y su integración con **GitHub**, así como en profundizar en la estructura semántica y accesibilidad con **HTML5**.
+Este repositorio forma parte de mi proceso personal de aprendizaje en *Desarrollo web*. 
+
+Mi enfoque actual está en dominar:
+- Los fundamentos esenciales de **Git** y su integración con **GitHub**
+- Profundizar en la estructura semántica y accesibilidad con **HTML5**
+- Los fundamientos y la maquetación en **CSS3**.
 
 ## Evolución del proyecto
 
@@ -19,20 +24,24 @@ Por eso, este README se actualizará regularmente para reflejar mis avances y nu
 | `00_Recursos` | Recursos visuales y materiales de apoyo para los retos |
 | `01-Git_GitHub_fundamentos_esenciales` | Fundamentos básicos de Git y GitHub |
 | `02-HTML5_esqueleto_metadatos_jerarquia` | Retos prácticos sobre estructura semántica, metadatos y jerarquía en HTML5, con ejemplos en archivos HTML y documentación explicativa |
+| `03-CSS_fundamentos-y-layouts` | Retos prácticos sobre modelo de caja, posicionamiento, Flexbox, Grid y diseño responsivo  |
 
 ## Índice de retos y proyectos
 
-- [Git & GitHub: Fundamentos esenciales](01-Git_GitHub_fundamentos_esenciales/README.md)
-- [HTML5: Estructura semántica y metadatos](02-HTML5_esqueleto_metadatos_jerarquia/README.md)
-- (Próximamente más temas y retos)
+- [Git & GitHub: fundamentos esenciales](01-Git_GitHub_fundamentos_esenciales/README.md)
+- [HTML5: estructura semántica y metadatos](02-HTML5_esqueleto_metadatos_jerarquia/README.md)
+- [CSS3: fundamentos y maquetación](03-CSS_fundamentos-y-layouts/README.md)
+- *(Próximamente más temas y retos)*
 
 ## Objetivos generales
 
-- Construir una base sólida en control de versiones con Git.
-- Practicar flujos de trabajo reales y profesionales.
-- Profundizar en el uso correcto de etiquetas semánticas y accesibilidad en HTML5.
-- Documentar el proceso de aprendizaje de forma clara y ordenada.
-- Crear un portafolio público que muestre mis avances y habilidades.
+- Construir una base sólida en **control de versiones con Git**.  
+- Practicar **flujos de trabajo reales y profesionales**.  
+- Profundizar en **HTML5 semántico y accesible**.  
+- Dominar la **maquetación en CSS**, incluyendo Flexbox, Grid y diseño responsivo.  
+- Aplicar **buenas prácticas visuales y consistentes** para mejorar la experiencia de usuario.  
+- Documentar mi progreso de forma **clara, ordenada y visualmente atractiva**.  
+- Crear un **portafolio público** que muestre mis avances y habilidades.
 
 
 
