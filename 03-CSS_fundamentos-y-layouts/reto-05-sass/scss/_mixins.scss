@@ -1,0 +1,16 @@
+@mixin flex-center($direction: column) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin sombra-suave {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+@mixin responsive($breakpoint) {
+    @media (max-width: $breakpoint) {
+        @content;
+    }
+}

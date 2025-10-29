@@ -1,0 +1,60 @@
+.profile-card {
+    @include flex-center();
+    font-family: $font-principal;
+    color: $color-texto;
+    background-color: $color-secundario;
+    border-radius: $radius;
+    padding: $spacing-base * 1.5; // operador
+    width: 400px;
+    margin: 1rem auto;
+    text-align: center;
+    @include sombra-suave;
+
+    &__avatar {
+        width: $avatar-size;
+        height: $avatar-size;
+        border-radius: 50%;
+    }
+
+    &__name {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-titular;
+        margin-bottom: 0.5rem;
+    }
+
+    &__bio {
+        font-family: $font-secundaria;
+        font-weight: $font-weight-normal;
+        font-size: $font-size-base;
+        margin-bottom: $spacing-base;
+    }
+
+    &__button {
+        background-color: $color-principal;
+        color: $color-secundario;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: $radius / 2; // operador
+        cursor: pointer;
+
+        &--disabled {
+            background-color: gray;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+    }
+
+    &--dark {
+        background-color: $color-dark-bg;
+        color: $color-dark-texto;
+
+        .profile-card__button {
+            background-color: lighten($color-principal, 20%);
+        }
+    }
+
+    // Responsivo
+    @include responsive(600px) {
+        width: 70%;
+    }
+}

@@ -1,0 +1,46 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Barra de navegación */
+    .barra-navegacion {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffd79c;
+    }
+
+    .barra-navegacion > div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .logo img {
+        max-width: 4rem;
+        border-radius: 50%;
+    }
+
+    .barra-navegacion a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    /* Listado de tarjetas */
+    .listado-tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .tarjeta {
+        flex: 1 1 300px; /* flex-grow: 1, flex-shrink: 1, flex-basis: 300px */
+        border: 2px solid #ff751f;
+        padding: 1rem;
+        background-color: #ff751f15;
+        border-radius: 10px;
+         box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra suave */
+    }

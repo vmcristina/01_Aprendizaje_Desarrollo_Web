@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    width: 20rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #dcffc2;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.badge {
+    position: absolute;
+    top: -0.75rem;
+    right: -0.75rem;
+    background-color: #ff4757;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.notification {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background-color: #ff4757;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+    box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.15);
+    z-index: 5;
+    cursor: default;
+}
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ff4757;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.bio {
+    font-size: 1rem;
+}

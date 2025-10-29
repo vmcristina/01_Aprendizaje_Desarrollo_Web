@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Contenedor general */
+.grid-container {
+    background-color: rgb(161, 161, 255);
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+    ;
+    grid-template-columns: 250px 1fr 1fr; /* Sidebar fija + columnas flexibles */
+    grid-auto-rows: auto; /* Altura automática para filas */
+    gap: 20px; /* Separación entre áreas */
+    min-height: 100vh;
+}
+
+/* Áreas del layout */
+.header {
+    grid-area: header;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #ff8800;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main {
+    grid-area: main;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Galería */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Rejilla adaptativa */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Ítems de la galería */
+.item {
+    background-color: #feffae;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: 1px solid black;
+    min-height: 150px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* Ítem destacado */
+.destacado {
+    background-color: #fbfd7c;
+    grid-column: span 2; /* Ocupa 2 columnas */
+
+}
+
