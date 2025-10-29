@@ -53,5 +53,40 @@ En esta sección de mi ruta de aprendizaje personal, exploro los fundamentos del
 | `git pull origin main` | Descarga cambios desde GitHub |
 | `.gitignore` | Archivo que define qué archivos no subir al repositorio |
 
+## Guía de commits profesionales
+
+### Estructura general
+
+**Formato:**
+
+`<tipo>(<área>): <descripción breve>`
+
+- **tipo:** Qué tipo de cambio hice (ej. nueva funcionalidad, documentación, corrección).  
+- **área:** Módulo, carpeta o tema afectado (ej. git, html, css, recursos, readme).  
+- **descripción:** Explicación corta y precisa del cambio realizado.
+
+### Tipos de commits más comunes
+
+| Tipo | Descripción | Ejemplo |
+|------|-------------|---------|
+| **feat** | Nueva funcionalidad o incorporación de contenido | `feat(css): añadir módulo 03 con retos de fundamentos y layouts` |
+| **fix** | Corrección de errores o problemas menores | `fix(html): corregir etiquetas mal anidadas en formulario` |
+| **docs** | Cambios en documentación (README, comentarios, etc.) | `docs(readme): actualizar estructura y añadir nuevos módulos` |
+| **style** | Cambios de formato o estilo sin afectar la funcionalidad | `style(css): ajustar indentación y espacios en styles.css` |
+| **refactor** | Reorganización o mejora del código sin cambiar su comportamiento | `refactor(js): simplificar función de validación de formulario` |
+| **test** | Añadir o modificar pruebas | `test(js): agregar pruebas unitarias para función de validación` |
+| **chore** | Mantenimiento, tareas menores o cambios en configuración | `chore(git): actualizar archivo .gitignore` |
+
+### Ejemplos prácticos usados en este repositorio
+
+| Contexto | Commit sugerido |
+|-----------|----------------|
+| Subir módulo CSS completo con documentación | `feat(css): añadir módulo 03 con retos y README de fundamentos y layouts` |
+| Añadir imágenes de apoyo o recursos | `feat(recursos): incluir imágenes de apoyo para módulo CSS` |
+| Actualizar README global con nuevos módulos | `docs(readme): actualizar README global con incorporación del módulo CSS` |
+| Mejorar formato del README | `docs(readme): mejorar presentación y formato visual` |
+| Corregir nombres de archivos o estructura | `chore(repo): renombrar carpetas y organizar estructura del proyecto` |
+
+
 
 
